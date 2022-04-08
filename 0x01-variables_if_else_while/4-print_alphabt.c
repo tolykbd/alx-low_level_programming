@@ -7,6 +7,7 @@
 int main(void)
 {
 	int ch;
+
 	ch = 97;
 	while (ch < 123)
 	{
@@ -14,5 +15,6 @@ int main(void)
 			putchar(ch);
 		ch++;
 	}
+	putchar('\n');
 	return (0);
 }

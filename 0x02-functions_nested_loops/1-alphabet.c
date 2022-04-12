@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - prints a-z latters
- *
  */
 void print_alphabet(void)
 {

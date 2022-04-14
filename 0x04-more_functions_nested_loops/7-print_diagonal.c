@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - check the code
+ * print_diagonal - prints diagonal line
  * @n: number of diagonal line to be printed
  *
  */
@@ -20,7 +20,7 @@ void print_diagonal(int n);
 				_putchar(' ');
 				j--;
 			}
-			_putchar('/');
+			_putchar('\\');
 			_putchar('\n');
 			i++
 		}

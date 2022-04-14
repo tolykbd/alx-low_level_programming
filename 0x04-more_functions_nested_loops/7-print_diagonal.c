@@ -5,7 +5,7 @@
  * @n: number of diagonal line to be printed
  *
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int i, j;
 
@@ -17,12 +17,12 @@ void print_diagonal(int n);
 			j = i;
 			while (j >= 0)
 			{
-				_putchar(' ');
+				_putchar(32);
 				j--;
 			}
 			_putchar('\\');
 			_putchar('\n');
-			i++
+			i++;
 		}
 	}
 	else

@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strcat - soncatnate two strings
- * @dest - first string to be appended
- * @src - second string
- * Return: concatnate string
- */
+* _strcat - soncatnate two strings
+* @dest: first string to be appended
+* @src: second string
+* Return: concatnate string
+*/
 char *_strcat(char *dest, char *src)
 {
 	int i, j;

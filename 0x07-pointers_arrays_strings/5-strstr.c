@@ -1,19 +1,31 @@
 #include "main.h"
 /**
- * _strstr - breacks the character array
- * @haystack: the charachter
- * @needle: the characher to cut
- * Return: pointer to the byte in s that matches one of the bytes in
- *accept, or NULL if no such byte is found
+ * _strstr - locates a substring
+ * @haystack: the string
+ * @needle: string to find
+ * Return: NULL  if no find
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int i;
+	int i, n, j;
 
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
 		if (haystack[i] == needle[0])
-			return (haystack + i);
+		{
+			n = i;
+			for (j = 0; needle[j] != '\0'; j++)
+			{
+				if (haystack[i] == needle[j])
+				{
+					i++;
+					if (needle[j + 1] == '\0')
+						return (haystack + n);
+				}
+				else
+					break;
+			}
+		}
 	}
 	return (0);
 }

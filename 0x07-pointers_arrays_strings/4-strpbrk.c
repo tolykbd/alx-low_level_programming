@@ -3,6 +3,8 @@
  * _strpbrk - breacks the character array
  * @s: the charachter
  * @accept: the characher to cut
+ * Return: pointer to the byte in s that matches one of the bytes in
+ *accept, or NULL if no such byte is found
  */
 char *_strpbrk(char *s, char *accept)
 {

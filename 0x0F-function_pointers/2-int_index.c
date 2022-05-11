@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stdlib.h>
 /**
 * int_index - prints name
 * @array: array of intergers

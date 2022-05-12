@@ -1,4 +1,5 @@
 #include <stdarg.h>
+#include <stdio.h>
 /**
  * sum_them_all - sum of arguments
  * @n: number of arguments

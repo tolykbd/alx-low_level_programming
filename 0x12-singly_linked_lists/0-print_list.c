@@ -11,9 +11,9 @@ nelem = 0;
 while (h != NULL)
 {
 if (h->str == NULL)
-printf("[%lu] %s\n", 0, "(nil)");
+printf("[%u] %s\n", 0, "(nil)");
 else
-printf("[%lu] %s\n", h->len, h->str);
+printf("[%u] %s\n", h->len, h->str);
 h = h->next;
 nelem++;
 }
